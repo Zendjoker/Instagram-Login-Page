@@ -1,0 +1,199 @@
+body{
+    justify-content: center;
+   /* margin: 32px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;*/
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backgroundimg{
+    position: relative;
+    padding: 82px 15px;
+    display: flex;
+}
+.image-in{
+    position: absolute;
+    top: 108px;
+    left: 169px;
+}
+.instagram-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 30px;
+}
+.signup{
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    border-radius: 3px;
+    height: 33vh;
+    width: 26vh;
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+} 
+
+.input-login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;    
+    width: 100%;
+    font-size: 16px;
+}
+.input-login >input{
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    border-radius: 1px;
+    padding: 15px;
+    width: 100%;
+    
+}
+
+.form-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;    
+
+}
+
+.labellogin{
+    padding: 10px;
+   
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    color: rgba(106, 113, 119, 0.514);
+}
+
+.submit{
+    background-color: rgba(52, 178, 228, 0.582);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 0px;
+    width: 100%;
+    color: WHITE;
+    font-size: 14px;
+    margin-top: 12px;
+}
+    
+.mdp{
+    margin-bottom:5px ;
+    font-size: 11px;
+}
+.user{
+margin-bottom:7px ;
+font-size: 11px;
+}
+
+.fb-cnc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+.loginwithfb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+.s2txt{
+    font: bold 14px/20px 'Roboto', sans-serif;
+    color: #4460A0;
+}
+.face-svg{
+    width: 16px;
+    padding: 10px;
+}
+.forget-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #545557;
+    font-weight: 300;
+}
+.into-container{
+    position: relative;
+    bottom: 91px;
+    right: 0;
+}
+.noaccount{
+    
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    border-radius: 3px;
+    height: 7vh;
+    width: 36.6vh;
+    margin: 27px -52px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insc{
+    color: #2a98b9;
+    font-weight: 550;
+}
+
+.downloadapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.store {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px ;
+}
+.app{
+    height: 40px;
+    padding: 7px;
+}
+.storeimg{
+    height: 40px;
+    
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.footer-text{
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.under-text-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
